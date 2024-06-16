@@ -49,7 +49,7 @@ class CLL:
             self.tail.next = self.head  
         else: 
             if pos==1:
-                add_begin(x)
+                self.add_begin(x)
             else: 
                 temp = self.head 
                 for i in range(1,pos-1):
